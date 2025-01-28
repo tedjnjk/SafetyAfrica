@@ -1,0 +1,35 @@
+:root {
+  /* VSTSA Brand Colors */
+  --primary-color: #004D40;    /* Deep teal - representing professionalism and environmental focus */
+  --secondary-color: #FF5722;  /* Safety orange - representing safety and emergency services */
+  --accent-color: #FFC107;     /* Warning yellow - highlighting important safety elements */
+  --text-color: #333333;       /* Dark gray for readable text */
+  --light-bg: #F5F5F5;        /* Light background for content sections */
+}
+
+/* Apply brand colors */
+.dark-background {
+  background-color: var(--primary-color);
+}
+
+.btn-get-started {
+  background-color: var(--secondary-color);
+}
+
+.service-btn {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.service-btn:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.icon-box {
+  color: var(--primary-color);
+}
+
+.section-title h2:after {
+  background-color: var(--accent-color);
+}
