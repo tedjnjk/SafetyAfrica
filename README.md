@@ -46,3 +46,17 @@ SAFETY AFRICA is a leading safety consulting firm providing comprehensive safety
 - Bootstrap Icons
 
 ## Project Structure
+
+VSTSA/
+├── assets/
+│ ├── css/
+│ │ ├── style.css
+│ │ └── custom.css
+│ ├── js/
+│ │ └── main.js
+│ └── img/
+├── pages/
+│ ├── services.html
+│ ├── about.html
+│ └── contact.html
+└── index.html
